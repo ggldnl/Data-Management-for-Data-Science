@@ -282,7 +282,8 @@ select
 from emissions2010 e10, emissions2020 e20
 where 
 	e10.alpha_3 = e20.alpha_3 and
-	e10.emissions2010 > 0;
+	e10.emissions2010 > 0
+order by percentage desc;
 
 -- 11. Return country population, subregion, and total emissions of the top 10 
 --countries of CO2 emissions of coal from 2010 to 2020
