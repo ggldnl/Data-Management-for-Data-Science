@@ -275,12 +275,14 @@ select * from emissions2020;
 
 select 
 	e10.alpha_3, 
-	e10.country, 
+	e10.country,
+	wc.region,
 	e10.emissions2010, 
 	e20.emissions2020,
 	round(((e20.emissions2020 - e10.emissions2010) / e10.emissions2010) * 100, 2) as percentage
-from emissions2010 e10, emissions2020 e20
+from emissions2010 e10, emissions2020 e20, world_countries wc
 where 
+	e10.alpha_3 = wc.alpha_3 and
 	e10.alpha_3 = e20.alpha_3 and
 	e10.emissions2010 > 0
 order by percentage desc;
