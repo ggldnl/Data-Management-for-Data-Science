@@ -79,7 +79,7 @@ select country, medage
 from WorldCountries 
 group by country, medage 
 having medage < '30' 
-order by medage ;
+order by medage;
 
 -- 2. Retun countries and subregion from country territories that are in the region Europe but not in UE
 select country, subregion

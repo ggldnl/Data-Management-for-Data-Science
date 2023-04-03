@@ -255,6 +255,25 @@ where wc.density > (
 	where wc1.region = 'Africa'
 );
 
+-- select wc.alpha_3, wc.country, wc.density
+-- from world_countries wc
+-- where wc.density > (
+-- 	select
+-- 		wc1.density
+-- 	from (
+-- 		select alpha_3, country, density
+-- 		from world_countries
+-- 		where region = 'Africa'
+-- 	) wc1
+-- 	left join (
+-- 		select alpha_3, country, density
+-- 		from world_countries
+-- 		where region = 'Africa'
+-- 	) wc2  
+-- 	on wc1.density < wc2.density
+-- 	where wc2.alpha_3 is null
+-- )
+
 -- 10. Return the difference in percentage of emissions of a country between 2010 and 2020
 
 drop view if exists emissions2010;
@@ -302,4 +321,53 @@ group by wc.country, wc.population2020, ct.subregion
 order by total_emissions desc
 limit 10;
 
+-- 12. Return the maximum emission, the year and the region for each country
+
+-- method 1
+drop view if exists max_for_country;
+create view max_for_country as
+select alpha_3, max(total) as total
+from co2_emissions co2
+group by alpha_3;
+
+select * from max_for_country order by total desc;
+
+select distinct co2.country, max(co2.ref_year), mfc.total
+from co2_emissions co2, max_for_country mfc
+where 
+	co2.total = mfc.total and 
+	co2.alpha_3 = mfc.alpha_3
+group by co2.country, mfc.total;
+
+-- alpha_3 in co2_emissions not in world_countries
+select distinct alpha_3 from co2_emissions where alpha_3 not in (
+	select alpha_3 from world_countries
+)
+
+-- alpha_3 in world_countries not in co2_emissions
+select distinct country from world_countries where alpha_3 not in (
+	select alpha_3 from co2_emissions
+)
+
+-- method 2
+-- select 
+-- 	co2_1.alpha_3, 
+-- 	co2_1.country, 
+-- 	co2_1.ref_year, 
+-- 	co2_1.total
+-- from co2_emissions co2_1
+-- order by co2_1.total desc
+-- limit 1;
+
+-- select 
+-- 	co2_1.alpha_3, 
+-- 	co2_1.country, 
+-- 	co2_1.ref_year, 
+-- 	co2_1.total
+-- from co2_emissions co2_1
+-- left join co2_emissions co2_2
+-- on co2_1.total < co2_2.total
+-- where 
+-- 	co2_2.country is null and
+-- 	co2_2.ref_year is null;
 
