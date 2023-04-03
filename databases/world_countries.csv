@@ -156,60 +156,60 @@ LIE,Liechtenstein,38128,0.29,109,238,160,nan,nan,nan,15,0.0,Europe
 SMR,San Marino,33931,0.21,71,566,60,nan,nan,nan,97,0.0,Europe
 GIB,Gibraltar,33691,-0.03,-10,3369,10,nan,nan,nan,nan,0.0,Europe
 VAT,Holy See,801,0.25,2,2003,0,nan,nan,nan,nan,0.0,Europe
-BRA,Brazil,212559417,0.72,1509890,25,8358140,21200,1.7,33,88,2.73,Latin America & Caribbean
-MEX,Mexico,128932753,1.06,1357224,66,1943950,-60000,2.1,29,84,1.65,Latin America & Caribbean
-COL,Colombia,50882891,1.08,543448,46,1109500,204796,1.8,31,80,0.65,Latin America & Caribbean
-ARG,Argentina,45195774,0.93,415097,17,2736690,4800,2.3,32,93,0.58,Latin America & Caribbean
-PER,Peru,32971854,1.42,461401,26,1280000,99069,2.3,31,79,0.42,Latin America & Caribbean
-VEN,Venezuela,28435940,-0.28,-79889,32,882050,-653249,2.3,30,nan,0.36,Latin America & Caribbean
-CHL,Chile,19116201,0.87,164163,26,743532,111708,1.7,35,85,0.25,Latin America & Caribbean
-GTM,Guatemala,17915568,1.9,334096,167,107160,-9215,2.9,23,52,0.23,Latin America & Caribbean
-ECU,Ecuador,17643054,1.55,269392,71,248360,36400,2.4,28,63,0.23,Latin America & Caribbean
-BOL,Bolivia,11673021,1.39,159921,11,1083300,-9504,2.8,26,69,0.15,Latin America & Caribbean
-CUB,Cuba,11326616,-0.06,-6867,106,106440,-14400,1.6,42,78,0.15,Latin America & Caribbean
-HTI,Haiti,11402528,1.24,139451,414,27560,-35000,3,24,57,0.15,Latin America & Caribbean
-DOM,Dominican Republic,10847910,1.01,108952,225,48320,-30000,2.4,28,85,0.14,Latin America & Caribbean
-HND,Honduras,9904607,1.63,158490,89,111890,-6800,2.5,24,57,0.13,Latin America & Caribbean
-PRY,Paraguay,7132538,1.25,87902,18,397300,-16556,2.4,26,62,0.09,Latin America & Caribbean
-NIC,Nicaragua,6624554,1.21,79052,55,120340,-21272,2.4,26,57,0.08,Latin America & Caribbean
-SLV,El Salvador,6486205,0.51,32652,313,20720,-40539,2.1,28,73,0.08,Latin America & Caribbean
-CRI,Costa Rica,5094118,0.92,46557,100,51060,4200,1.8,33,80,0.07,Latin America & Caribbean
-PAN,Panama,4314767,1.61,68328,58,74340,11200,2.5,30,68,0.06,Latin America & Caribbean
-URY,Uruguay,3473730,0.35,11996,20,175020,-3000,2,36,96,0.04,Latin America & Caribbean
-JAM,Jamaica,2961167,0.44,12888,273,10830,-11332,2,31,55,0.04,Latin America & Caribbean
-PRI,Puerto Rico,2860853,-2.47,-72555,323,8870,-97986,1.2,44,nan,0.04,Latin America & Caribbean
-TTO,Trinidad and Tobago,1399488,0.32,4515,273,5130,-800,1.7,36,52,0.02,Latin America & Caribbean
-GUY,Guyana,786552,0.48,3786,4,196850,-6000,2.5,27,27,0.01,Latin America & Caribbean
-SUR,Suriname,586632,0.9,5260,4,156000,-1000,2.4,29,65,0.01,Latin America & Caribbean
-GLP,Guadeloupe,400124,0.02,68,237,1690,-1440,2.2,44,nan,0.01,Latin America & Caribbean
-BLZ,Belize,397628,1.86,7275,17,22810,1200,2.3,25,46,0.01,Latin America & Caribbean
-BHS,Bahamas,393244,0.97,3762,39,10010,1000,1.8,32,86,0.01,Latin America & Caribbean
-MTQ,Martinique,375265,-0.08,-289,354,1060,-960,1.9,47,92,0.0,Latin America & Caribbean
-GUF,French Guiana,298682,2.7,7850,4,82200,1200,3.4,25,87,0.0,Latin America & Caribbean
-BRB,Barbados,287375,0.12,350,668,430,-79,1.6,40,31,0.0,Latin America & Caribbean
-LCA,Saint Lucia,183627,0.46,837,301,610,0,1.4,34,19,0.0,Latin America & Caribbean
-CUW,Curacao,164093,0.41,669,370,444,515,1.8,42,89,0.0,Latin America & Caribbean
-GRD,Grenada,112523,0.46,520,331,340,-200,2.1,32,35,0.0,Latin America & Caribbean
-VCT,St. Vincent & Grenadines,110940,0.32,351,284,390,-200,1.9,33,53,0.0,Latin America & Caribbean
-ABW,Aruba,106766,0.43,452,593,180,201,1.9,41,44,0.0,Latin America & Caribbean
-VIR,U.S. Virgin Islands,104425,-0.15,-153,298,350,-451,2,43,96,0.0,Latin America & Caribbean
-ATG,Antigua and Barbuda,97929,0.84,811,223,440,0,2,34,26,0.0,Latin America & Caribbean
-DMA,Dominica,71986,0.25,178,96,750,nan,nan,nan,74,0.0,Latin America & Caribbean
-CYM,Cayman Islands,65722,1.19,774,274,240,nan,nan,nan,97,0.0,Latin America & Caribbean
-KNA,Saint Kitts & Nevis,53199,0.71,376,205,260,nan,nan,nan,33,0.0,Latin America & Caribbean
-SXM,Sint Maarten,42876,1.15,488,1261,34,nan,nan,nan,96,0.0,Latin America & Caribbean
-TCA,Turks and Caicos,38717,1.38,526,41,950,nan,nan,nan,89,0.0,Latin America & Caribbean
-MAF,Saint Martin,38666,1.75,664,730,53,nan,nan,nan,0,0.0,Latin America & Caribbean
-VGB,British Virgin Islands,30231,0.67,201,202,150,nan,nan,nan,52,0.0,Latin America & Caribbean
-BES,Caribbean Netherlands,26223,0.94,244,80,328,nan,nan,nan,75,0.0,Latin America & Caribbean
-AIA,Anguilla,15003,0.9,134,167,90,nan,nan,nan,nan,0.0,Latin America & Caribbean
-MSR,Montserrat,4992,0.06,3,50,100,nan,nan,nan,10,0.0,Latin America & Caribbean
-FLK,Falkland Islands,3480,3.05,103,0,12170,nan,nan,nan,66,0.0,Latin America & Caribbean
-USA,United States,331002651,0.59,1937734,36,9147420,954806,1.8,38,83,4.25,Northern America
-CAN,Canada,37742154,0.89,331107,4,9093510,242032,1.5,41,81,0.48,Northern America
-BMU,Bermuda,62278,-0.36,-228,1246,50,nan,nan,nan,97,0.0,Northern America
-GRL,Greenland,56770,0.17,98,0,410450,nan,nan,nan,87,0.0,Northern America
-SPM,Saint Pierre & Miquelon,579400.0,-0.48,-28,25,230,nan,nan,nan,100.0,0.0,Northern America
+BRA,Brazil,212559417,0.72,1509890,25,8358140,21200,1.7,33,88,2.73,America
+MEX,Mexico,128932753,1.06,1357224,66,1943950,-60000,2.1,29,84,1.65,America
+COL,Colombia,50882891,1.08,543448,46,1109500,204796,1.8,31,80,0.65,America
+ARG,Argentina,45195774,0.93,415097,17,2736690,4800,2.3,32,93,0.58,America
+PER,Peru,32971854,1.42,461401,26,1280000,99069,2.3,31,79,0.42,America
+VEN,Venezuela,28435940,-0.28,-79889,32,882050,-653249,2.3,30,nan,0.36,America
+CHL,Chile,19116201,0.87,164163,26,743532,111708,1.7,35,85,0.25,America
+GTM,Guatemala,17915568,1.9,334096,167,107160,-9215,2.9,23,52,0.23,America
+ECU,Ecuador,17643054,1.55,269392,71,248360,36400,2.4,28,63,0.23,America
+BOL,Bolivia,11673021,1.39,159921,11,1083300,-9504,2.8,26,69,0.15,America
+CUB,Cuba,11326616,-0.06,-6867,106,106440,-14400,1.6,42,78,0.15,America
+HTI,Haiti,11402528,1.24,139451,414,27560,-35000,3,24,57,0.15,America
+DOM,Dominican Republic,10847910,1.01,108952,225,48320,-30000,2.4,28,85,0.14,America
+HND,Honduras,9904607,1.63,158490,89,111890,-6800,2.5,24,57,0.13,America
+PRY,Paraguay,7132538,1.25,87902,18,397300,-16556,2.4,26,62,0.09,America
+NIC,Nicaragua,6624554,1.21,79052,55,120340,-21272,2.4,26,57,0.08,America
+SLV,El Salvador,6486205,0.51,32652,313,20720,-40539,2.1,28,73,0.08,America
+CRI,Costa Rica,5094118,0.92,46557,100,51060,4200,1.8,33,80,0.07,America
+PAN,Panama,4314767,1.61,68328,58,74340,11200,2.5,30,68,0.06,America
+URY,Uruguay,3473730,0.35,11996,20,175020,-3000,2,36,96,0.04,America
+JAM,Jamaica,2961167,0.44,12888,273,10830,-11332,2,31,55,0.04,America
+PRI,Puerto Rico,2860853,-2.47,-72555,323,8870,-97986,1.2,44,nan,0.04,America
+TTO,Trinidad and Tobago,1399488,0.32,4515,273,5130,-800,1.7,36,52,0.02,America
+GUY,Guyana,786552,0.48,3786,4,196850,-6000,2.5,27,27,0.01,America
+SUR,Suriname,586632,0.9,5260,4,156000,-1000,2.4,29,65,0.01,America
+GLP,Guadeloupe,400124,0.02,68,237,1690,-1440,2.2,44,nan,0.01,America
+BLZ,Belize,397628,1.86,7275,17,22810,1200,2.3,25,46,0.01,America
+BHS,Bahamas,393244,0.97,3762,39,10010,1000,1.8,32,86,0.01,America
+MTQ,Martinique,375265,-0.08,-289,354,1060,-960,1.9,47,92,0.0,America
+GUF,French Guiana,298682,2.7,7850,4,82200,1200,3.4,25,87,0.0,America
+BRB,Barbados,287375,0.12,350,668,430,-79,1.6,40,31,0.0,America
+LCA,Saint Lucia,183627,0.46,837,301,610,0,1.4,34,19,0.0,America
+CUW,Curacao,164093,0.41,669,370,444,515,1.8,42,89,0.0,America
+GRD,Grenada,112523,0.46,520,331,340,-200,2.1,32,35,0.0,America
+VCT,St. Vincent & Grenadines,110940,0.32,351,284,390,-200,1.9,33,53,0.0,America
+ABW,Aruba,106766,0.43,452,593,180,201,1.9,41,44,0.0,America
+VIR,U.S. Virgin Islands,104425,-0.15,-153,298,350,-451,2,43,96,0.0,America
+ATG,Antigua and Barbuda,97929,0.84,811,223,440,0,2,34,26,0.0,America
+DMA,Dominica,71986,0.25,178,96,750,nan,nan,nan,74,0.0,America
+CYM,Cayman Islands,65722,1.19,774,274,240,nan,nan,nan,97,0.0,America
+KNA,Saint Kitts & Nevis,53199,0.71,376,205,260,nan,nan,nan,33,0.0,America
+SXM,Sint Maarten,42876,1.15,488,1261,34,nan,nan,nan,96,0.0,America
+TCA,Turks and Caicos,38717,1.38,526,41,950,nan,nan,nan,89,0.0,America
+MAF,Saint Martin,38666,1.75,664,730,53,nan,nan,nan,0,0.0,America
+VGB,British Virgin Islands,30231,0.67,201,202,150,nan,nan,nan,52,0.0,America
+BES,Caribbean Netherlands,26223,0.94,244,80,328,nan,nan,nan,75,0.0,America
+AIA,Anguilla,15003,0.9,134,167,90,nan,nan,nan,nan,0.0,America
+MSR,Montserrat,4992,0.06,3,50,100,nan,nan,nan,10,0.0,America
+FLK,Falkland Islands,3480,3.05,103,0,12170,nan,nan,nan,66,0.0,America
+USA,United States,331002651,0.59,1937734,36,9147420,954806,1.8,38,83,4.25,America
+CAN,Canada,37742154,0.89,331107,4,9093510,242032,1.5,41,81,0.48,America
+BMU,Bermuda,62278,-0.36,-228,1246,50,nan,nan,nan,97,0.0,America
+GRL,Greenland,56770,0.17,98,0,410450,nan,nan,nan,87,0.0,America
+SPM,Saint Pierre & Miquelon,579400.0,-0.48,-28,25,230,nan,nan,nan,100.0,0.0,America
 AUS,Australia,25499884,1.18,296686,3,7682300,158246,1.8,38,86,0.33,Oceania
 PNG,Papua New Guinea,8947024,1.95,170915,20,452860,-800,3.6,22,13,0.11,Oceania
 NZL,New Zealand,4822233,0.82,39170,18,263310,14881,1.9,38,87,0.06,Oceania

@@ -1,7 +1,7 @@
 
 /* ----------------------------- world countries ---------------------------- */
 
-drop table if exists world_countries;
+drop table if exists world_countries cascade;
 
 create table world_countries(
 	alpha_3 varchar primary key,
@@ -41,7 +41,7 @@ select * from world_countries;
 
 /* --------------------------- country territories -------------------------- */
 
-drop table if exists country_territories;
+drop table if exists country_territories cascade;
 
 create table country_territories (
 	country varchar,
@@ -67,7 +67,7 @@ select * from country_territories;
 
 /* ------------------------------ eu countries ------------------------------ */
 
-drop table if exists eu_countries;
+drop table if exists eu_countries cascade;
 
 create table eu_countries (
     alpha_3 varchar primary key,
@@ -93,7 +93,8 @@ select * from eu_countries;
 
 /* ------------------------------ co2 emissions ----------------------------- */
 
-drop table if exists co2_emissions;
+drop table if exists co2_emissions cascade;
+
 create table co2_emissions (
 	country varchar,
 	alpha_3 varchar,
@@ -130,11 +131,11 @@ select * from co2_emissions;
 /* --------------------------------- queries -------------------------------- */
 
 -- 1. Return the name of country and the medage with medage lower then 30
-select country, med_age 
+select country, region, med_age
 from world_countries 
-group by country, med_age 
+group by country, med_age, region
 having med_age < '30' 
-order by med_age;
+order by (region, med_age);
 
 -- 2. Retun countries and their subregion that are in Europe but not in the
 -- European Union
@@ -185,13 +186,13 @@ select wc.alpha_3, wc.country, wc.region
 from eu_countries eu, world_countries wc
 where 
 	eu.alpha_3 = wc.alpha_3 and
-	wc.region != 'Europe'
+	wc.region != 'Europe';
 
 -- 6. For the top 10 region return country, population, land area and density 
 select country, population2020, land_area, density
 from world_countries wc
 order by wc.population2020 desc
-limit 10
+limit 10;
 
 -- 7. for every region return the average of population for region 
 -- and the most populated country
@@ -222,16 +223,25 @@ where avgp.region = mpc.region;
 
 -- 8. Return region and subregion with the number of countries > threshold
 
-drop view if exists num_countries_for_subregion;
-create view num_countries_for_subregion as
-select ct.region, ct.subregion, count(ct.country) as num_countries
-from country_territories ct
-group by ct.region, ct.subregion
-order by num_countries desc;
+-- drop view if exists num_countries_for_subregion;
+-- create view num_countries_for_subregion as
+-- select ct.region, ct.subregion, count(ct.country) as num_countries
+-- from country_territories ct
+-- group by ct.region, ct.subregion
+-- order by num_countries desc;
+-- 
+-- select *
+-- from num_countries_for_subregion
+-- where num_countries > 10;
 
+--med 10 execution 110,7
 select *
-from num_countries_for_subregion
-where num_countries > 10;
+from 
+(select ct.region, ct.subregion, count(ct.country) as num_countries
+  from country_territories ct
+  group by ct.region, ct.subregion
+  order by num_countries desc) nc
+where nc.num_countries > 10;
 
 -- 9. Return world countries that have a greater population density of the most
 -- densely populated african country
@@ -243,7 +253,7 @@ where wc.density > (
 	select max(wc1.density)
 	from world_countries wc1
 	where wc1.region = 'Africa'
-)
+);
 
 -- 10. Return the difference in percentage of emissions of a country between 2010 and 2020
 
@@ -252,6 +262,7 @@ create view emissions2010 as
 select alpha_3, country, total as emissions2010
 from co2_emissions
 where ref_year = 2010;
+
 select * from emissions2010;
 
 drop view if exists emissions2020;
@@ -259,6 +270,7 @@ create view emissions2020 as
 select alpha_3, country, total as emissions2020
 from co2_emissions
 where ref_year = 2020;
+
 select * from emissions2020;
 
 select 
