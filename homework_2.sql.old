@@ -57,6 +57,8 @@ create table CO2emissions (
 );
 select * from CO2emissions;
 
+/* --------------------------------- indexes -------------------------------- */
+
 -- Index selectivity -> create index on columns that are common in WHERE, ORDER BY and GROUP BY clauses. 
 -- We may consider adding an index in colums that are used to relate other tables (through a JOIN, for example)
 -- and on values that have big domains, i.e. names, etc. Don't create indexes on columns with small variability,
