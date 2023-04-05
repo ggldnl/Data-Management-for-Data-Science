@@ -275,24 +275,6 @@ order by percentage;
 
 -- 10. Return the maximum emission, the year and the region for each country
 
--- method 1
-
-select distinct co2.alpha_3, co2.country, max(co2.ref_year), mfc.total, wc.region
-from 
-	co2_emissions co2,
-	(select alpha_3, max(total) as total
-		from co2_emissions co2
-		group by alpha_3) mfc,
-		world_countries wc
-where 
-	co2.total = mfc.total and 
-	co2.alpha_3 = mfc.alpha_3 and
-	co2.alpha_3 = wc.alpha_3
-group by co2.alpha_3, co2.country, mfc.total, wc.region
-order by mfc.total desc;
-
--- method 2
-
 select a.alpha_3, a.country, a.ref_year, a.total, wc.region
 from world_countries wc, co2_emissions a
 left outer join co2_emissions b
