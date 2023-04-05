@@ -151,6 +151,9 @@ group by subregion, country, region
 having ct.region = 'Europe'
 order by subregion;
 
+select count(country) as total from eu_countries; -- 27
+select count(country) as total from world_countries where region = 'Europe'; -- 48
+
 -- 3. Return all the countries in the european union that are not geographically in europe 
 
 -- Med 10 exe 
