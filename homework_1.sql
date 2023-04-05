@@ -151,26 +151,6 @@ group by subregion, country, region
 having ct.region = 'Europe'
 order by subregion;
 
-
--- 3. Return all the european countries that are not part of the european union and 
--- have population > 5000
--- Med 10 exe 110,1
-select wc.country, wc.population2020
-from world_countries wc
-where
-	wc.region = 'Europe' and
-	wc.alpha_3 not in (
-		select eu.alpha_3
-		from eu_countries eu
-	) and 
-	wc.population2020 > 5000
-group by wc.country, wc.population2020, wc.region
-having wc.region = 'Europe'
-order by wc.population2020 desc;
-
-select count(country) as total from eu_countries;
-select count(country) as total from world_countries where region = 'Europe';
-
 -- 3. Return all the countries in the european union that are not geographically in europe 
 
 -- Med 10 exe 
