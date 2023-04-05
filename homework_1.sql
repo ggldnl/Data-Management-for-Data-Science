@@ -200,7 +200,8 @@ from
 			from world_countries
 			group by region
 		) wc1 on wc.region = wc1.region and wc.population2020 = wc1.maxp) mpc 
-where avgp.region = mpc.region and sump.region = mpc.region;
+where avgp.region = mpc.region and sump.region = mpc.region
+order by average_pollution desc;
 
 
 -- 6. Return world countries that have a greater population density of the most
