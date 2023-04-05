@@ -4,7 +4,7 @@
 drop table if exists world_countries cascade;
 
 create table world_countries(
-	alpha_3 varchar primary key,
+	alpha_3 varchar,
 	country varchar,
 	population2020 numeric,
 	yearly_change numeric,
@@ -46,7 +46,7 @@ drop table if exists country_territories cascade;
 create table country_territories (
 	country varchar,
 	alpha_2 varchar, 
-	alpha_3 varchar primary key,
+	alpha_3 varchar,
 	region varchar,
 	subregion varchar,
 	intermediate_region varchar
@@ -70,7 +70,7 @@ select * from country_territories;
 drop table if exists eu_countries cascade;
 
 create table eu_countries (
-    alpha_3 varchar primary key,
+    alpha_3 varchar ,
     country varchar,
     capital varchar,
     gdp float,
@@ -94,7 +94,6 @@ select * from eu_countries;
 /* ------------------------------ co2 emissions ----------------------------- */
 
 drop table if exists co2_emissions cascade;
-
 create table co2_emissions (
 	country varchar,
 	alpha_3 varchar,
@@ -106,8 +105,7 @@ create table co2_emissions (
 	cement numeric,
 	flaring numeric,
 	other numeric,
-	per_capita numeric,
-	primary key (country, ref_year)
+	per_capita numeric
 );
 
 copy co2_emissions (
@@ -130,28 +128,33 @@ select * from co2_emissions;
 
 /* --------------------------------- queries -------------------------------- */
 
--- 1. Return the name of country and the medage with medage lower then 30
-select country, region, med_age
+-- 1. Return the name of country the regions and the medage with medage lower then 30
+-- Med 10 exe 
+select country, med_age, region, fert_rate 
 from world_countries 
-group by country, med_age, region
-having med_age < '30' 
-order by (region, med_age);
+group by country, med_age, region, fert_rate
+having med_age < 30 
+order by region, med_age;
+
+select * from world_countries where fert_rate is not null order by fert_rate desc;
 
 -- 2. Retun countries and their subregion that are in Europe but not in the
 -- European Union
+-- Med 10 exe 
 select country, subregion
 from country_territories ct
 where ct.alpha_3 not in (
 	select eu.alpha_3
 	from eu_countries eu
 )
-group by country, region, subregion
+group by subregion, country, region
 having ct.region = 'Europe'
 order by subregion;
 
 
 -- 3. Return all the european countries that are not part of the european union and 
--- have population > threshold (5000)
+-- have population > 5000
+-- Med 10 exe 110,1
 select wc.country, wc.population2020
 from world_countries wc
 where
@@ -165,88 +168,68 @@ group by wc.country, wc.population2020, wc.region
 having wc.region = 'Europe'
 order by wc.population2020 desc;
 
--- 4. Return the country polulation and subregion of every country such that the total amount of
--- Coal co2Emission from 2010 t0 2020 is less than "number";
+select count(country) as total from eu_countries;
+select count(country) as total from world_countries where region = 'Europe';
 
--- co2 emissions are measured in million metric tons (MMT)
-select wc.country, wc.population2020, sum(co2.coal) as total_emissions_MMT
-from world_countries wc, co2_emissions co2
-where
-	co2.coal is not null and
-	wc.alpha_3 = co2.alpha_3 and 
-	co2.ref_year between 2010 and 2020 
-group by wc.alpha_3, wc.country, wc.population2020
-having sum(co2.coal) < 100
-order by total_emissions_MMT desc;
+-- 3. Return all the countries in the european union that are not geographically in europe 
 
--- 5. Return all the countries in the european union that are not geographically in europe 
--- (maybe Asia like Cyprus)
-
-select wc.alpha_3, wc.country, wc.region
+-- Med 10 exe 
+select wc.alpha_3, wc.country, wc.region, eu.join_date, eu.currency
 from eu_countries eu, world_countries wc
 where 
 	eu.alpha_3 = wc.alpha_3 and
 	wc.region != 'Europe';
 
--- 6. For the top 10 region return country, population, land area and density 
-select country, population2020, land_area, density
+
+-- 4. For the top 10 populated countries return country, population, land area and density 
+
+--density = p/km^2
+--land area = km^2
+-- Med 10 exe 
+select 
+	country,
+	to_char(population2020, 'FM999G999G999G999') as population2020,
+	to_char(land_area, 'FM999G999G999G999') as land_area,
+	density
 from world_countries wc
 order by wc.population2020 desc
 limit 10;
 
--- 7. for every region return the average of population for region 
+-- 5. for every region return the average of population for region 
 -- and the most populated country
 
-drop view if exists most_populated_country;
-create view most_populated_country as
-select wc.country, wc.population2020, wc.region
-from world_countries wc
-inner join (
-	select  max(population2020) as maxp, region
-	from world_countries
-	group by region
-) wc1 on wc.region = wc1.region and wc.population2020 = wc1.maxp;
-
-drop view if exists avg_population;
-create view avg_population as
-select wc.region, avg(wc.population2020)
-from world_countries wc
-group by wc.region;
+-- Med 10 exe
 
 select 
 	avgp.region, 
-	to_char(round(avgp.avg, 2), 'FM999G999G999D99') as average_Population, 
+	to_char(round(avgp.avg, 2), 'FM999G999G999D99') as average_Population,
+	to_char(round(sump.sum, 2), 'FM999G999G999G999') as sum_Population,
 	mpc.country, 
 	to_char(mpc.population2020, 'FM999G999G999G999') as population
-from avg_population avgp, most_populated_country mpc 
-where avgp.region = mpc.region;
-
--- 8. Return region and subregion with the number of countries > threshold
-
--- drop view if exists num_countries_for_subregion;
--- create view num_countries_for_subregion as
--- select ct.region, ct.subregion, count(ct.country) as num_countries
--- from country_territories ct
--- group by ct.region, ct.subregion
--- order by num_countries desc;
--- 
--- select *
--- from num_countries_for_subregion
--- where num_countries > 10;
-
---med 10 execution 110,7
-select *
 from 
-(select ct.region, ct.subregion, count(ct.country) as num_countries
-  from country_territories ct
-  group by ct.region, ct.subregion
-  order by num_countries desc) nc
-where nc.num_countries > 10;
+	(select wc.region, avg(wc.population2020)
+	from world_countries wc
+	group by wc.region) avgp,
+	(select wc.region, sum(wc.population2020)
+	from world_countries wc
+	group by wc.region) sump,
+	(select wc.country, wc.population2020, wc.region
+		from world_countries wc
+		inner join (
+			select  max(population2020) as maxp, region
+			from world_countries
+			group by region
+		) wc1 on wc.region = wc1.region and wc.population2020 = wc1.maxp) mpc 
+where avgp.region = mpc.region and sump.region = mpc.region;
 
--- 9. Return world countries that have a greater population density of the most
+
+-- 6. Return world countries that have a greater population density of the most
 -- densely populated african country
 
+-- We took Africa as continent because the most densely populated country
+
 -- density = p/km^2
+-- med 10 exe 136.8
 select wc.alpha_3, wc.country, wc.density
 from world_countries wc
 where wc.density > (
@@ -255,42 +238,41 @@ where wc.density > (
 	where wc1.region = 'Africa'
 );
 
--- select wc.alpha_3, wc.country, wc.density
--- from world_countries wc
--- where wc.density > (
--- 	select
--- 		wc1.density
--- 	from (
--- 		select alpha_3, country, density
--- 		from world_countries
--- 		where region = 'Africa'
--- 	) wc1
--- 	left join (
--- 		select alpha_3, country, density
--- 		from world_countries
--- 		where region = 'Africa'
--- 	) wc2  
--- 	on wc1.density < wc2.density
--- 	where wc2.alpha_3 is null
--- )
+-- 7. Return the country polulation and subregion of every country such that the total amount of
+-- coal co2Emission from 2010 t0 2020 is less than 100
 
--- 10. Return the difference in percentage of emissions of a country between 2010 and 2020
+-- co2 emissions are measured in million metric tons (MMT)
 
-drop view if exists emissions2010;
-create view emissions2010 as
-select alpha_3, country, total as emissions2010
-from co2_emissions
-where ref_year = 2010;
+-- Med 10 exe 
+select wc.country, wc.population2020, sum(co2.coal) as total_emissions
+from world_countries wc, co2_emissions co2
+where
+	co2.coal is not null and
+	wc.alpha_3 = co2.alpha_3 and 
+	co2.ref_year between 2010 and 2020 
+group by wc.alpha_3, wc.country, wc.population2020
+having
+	sum(co2.coal) < 100
+order by total_emissions desc;
 
-select * from emissions2010;
+select * from co2_emissions;
 
-drop view if exists emissions2020;
-create view emissions2020 as
-select alpha_3, country, total as emissions2020
-from co2_emissions
-where ref_year = 2020;
+-- 8. Return country population, subregion, and total emissions of the top 10 
+--countries of CO2 emissions of coal from 2010 to 2020
 
-select * from emissions2020;
+select wc.country, wc.population2020, sum(co2.coal) as total_emissions, wc.region
+from world_countries wc, co2_emissions co2
+where 
+	co2.coal is not null and 
+	wc.alpha_3 = co2.alpha_3 and 
+	co2.ref_year between 2010 and 2020
+group by wc.country, wc.population2020, wc.region
+order by total_emissions desc
+limit 10;
+
+-- 9. Return the difference in percentage of emissions of a country between 2010 and 2020
+
+-- med 10 exe 
 
 select 
 	e10.alpha_3, 
@@ -299,75 +281,57 @@ select
 	e10.emissions2010, 
 	e20.emissions2020,
 	round(((e20.emissions2020 - e10.emissions2010) / e10.emissions2010) * 100, 2) as percentage
-from emissions2010 e10, emissions2020 e20, world_countries wc
+from 
+	(select alpha_3, country, total as emissions2010
+		from co2_emissions
+		where ref_year = 2010) e10, 
+	(select alpha_3, country, total as emissions2020
+		from co2_emissions
+		where ref_year = 2020) e20, 
+	world_countries wc
 where 
 	e10.alpha_3 = wc.alpha_3 and
 	e10.alpha_3 = e20.alpha_3 and
 	e10.emissions2010 > 0 and
-	e20.emissions2020 > 0 -- data missing otherwise
-order by percentage desc;
+	e20.emissions2020 > 0
+order by percentage;
 
--- 11. Return country population, subregion, and total emissions of the top 10 
---countries of CO2 emissions of coal from 2010 to 2020
-
-select wc.country, wc.population2020, ct.subregion, sum(co2.coal) as total_emissions
-from world_countries wc, country_territories ct, co2_emissions co2
-where 
-	co2.coal is not null and 
-	wc.country = ct.country and
-	wc.country = co2.country and 
-	co2.ref_year between 2010 and 2020
-group by wc.country, wc.population2020, ct.subregion  
-order by total_emissions desc
-limit 10;
-
--- 12. Return the maximum emission, the year and the region for each country
+-- 10. Return the maximum emission, the year and the region for each country
 
 -- method 1
-drop view if exists max_for_country;
-create view max_for_country as
-select alpha_3, max(total) as total
-from co2_emissions co2
-group by alpha_3;
 
-select * from max_for_country order by total desc;
-
-select distinct co2.country, max(co2.ref_year), mfc.total
-from co2_emissions co2, max_for_country mfc
+select distinct co2.alpha_3, co2.country, max(co2.ref_year), mfc.total, wc.region
+from 
+	co2_emissions co2,
+	(select alpha_3, max(total) as total
+		from co2_emissions co2
+		group by alpha_3) mfc,
+		world_countries wc
 where 
 	co2.total = mfc.total and 
-	co2.alpha_3 = mfc.alpha_3
-group by co2.country, mfc.total;
-
--- alpha_3 in co2_emissions not in world_countries
-select distinct alpha_3 from co2_emissions where alpha_3 not in (
-	select alpha_3 from world_countries
-)
-
--- alpha_3 in world_countries not in co2_emissions
-select distinct country from world_countries where alpha_3 not in (
-	select alpha_3 from co2_emissions
-)
+	co2.alpha_3 = mfc.alpha_3 and
+	co2.alpha_3 = wc.alpha_3
+group by co2.alpha_3, co2.country, mfc.total, wc.region
+order by mfc.total desc;
 
 -- method 2
--- select 
--- 	co2_1.alpha_3, 
--- 	co2_1.country, 
--- 	co2_1.ref_year, 
--- 	co2_1.total
--- from co2_emissions co2_1
--- order by co2_1.total desc
--- limit 1;
 
--- select 
--- 	co2_1.alpha_3, 
--- 	co2_1.country, 
--- 	co2_1.ref_year, 
--- 	co2_1.total
--- from co2_emissions co2_1
--- left join co2_emissions co2_2
--- on co2_1.total < co2_2.total
--- where 
--- 	co2_2.country is null and
--- 	co2_2.ref_year is null;
+select a.alpha_3, a.country, a.ref_year, a.total, wc.region
+from world_countries wc, co2_emissions a
+left outer join co2_emissions b
+    on a.alpha_3 = b.alpha_3 and
+	a.total < b.total
+where b.alpha_3 is null and wc.alpha_3 = a.alpha_3
+order by a.total desc;
 
+-- 11. Return region and subregion with the number of countries > 10
+
+--med 10 exe 
+
+select *
+from 
+	(select ct.region, ct.subregion, count(ct.country) as num_countries
+		from country_territories ct
+		group by ct.region, ct.subregion
+		order by num_countries desc) num_countries_for_subregion
+where num_countries > 10;

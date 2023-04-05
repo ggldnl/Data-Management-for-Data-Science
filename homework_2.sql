@@ -1,6 +1,24 @@
 
 /* ------------------------------ foreign keys ------------------------------ */
 
+/*
+Using a foreign key as an integrity constraint in a database can improve 
+performance in some cases, but it depends on the specific situation and the 
+queries being run. A foreign key constraint can help ensure referential integrity 
+by preventing the creation of orphaned records, which are records that reference 
+non-existent records in another table. By enforcing this constraint, the database 
+can avoid costly operations such as cascading deletes or updates. Additionally, 
+a foreign key constraint can sometimes improve performance by allowing the 
+database to use indexing more efficiently. When a foreign key constraint is 
+created, an index is automatically created on the foreign key column(s). This 
+index can speed up joins and other queries that involve the foreign key column(s).
+However, there are also cases where foreign key constraints can actually decrease 
+performance. For example, if a large number of tables have foreign keys referencing 
+a single table, it can lead to a high overhead for inserts, updates, and deletes 
+in that referenced table. In these cases, it may be necessary to carefully consider 
+the tradeoffs between referential integrity and performance.
+*/
+
 alter table country_territories
 	add constraint fk_alpha_3_ct foreign key (alpha_3) references world_countries (alpha_3);
 
