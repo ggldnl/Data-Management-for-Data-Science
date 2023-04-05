@@ -238,7 +238,7 @@ order by total_emissions desc;
 
 select * from co2_emissions;
 
--- 8. Return country population, subregion, and total emissions of the top 10 
+-- 8. Return country population, and total emissions of the top 10 
 --countries of CO2 emissions of coal from 2010 to 2020
 
 select wc.country, wc.population2020, sum(co2.coal) as total_emissions, wc.region
