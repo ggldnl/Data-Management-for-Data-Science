@@ -111,7 +111,8 @@ select
 	mpc.country, 
 	to_char(mpc.population2020, 'FM999G999G999G999') as population
 from avg_population avgp, most_populated_country mpc 
-where avgp.region = mpc.region;
+where avgp.region = mpc.region
+order by average_Population desc;
 
 -- 6. Return world countries that have a greater population density of the most
 -- densely populated african country
@@ -127,7 +128,7 @@ where wc.density > (
 order by wc.density desc;
 
 -- 7. Return the country polulation and subregion of every country such that the total amount of
--- Coal co2Emission from 2010 t0 2020 is less than 100;
+-- Coal co2Emission from 2010 to 2020 is less than 100
 
 -- co2 emissions are measured in million metric tons (MMT)
 
@@ -140,7 +141,7 @@ where
 	co2.ref_year between 2010 and 2020 
 group by wc.country, wc.population2020
 having sum(co2.coal) < 100
-order by total_emissions_MMT desc;
+order by total_emissions desc;
 
 -- 8. Return country population, and total emissions of the top 10 
 --countries of CO2 emissions of coal from 2010 to 2020
@@ -151,7 +152,7 @@ where
 	co2.coal is not null and 
 	wc.alpha_3 = co2.alpha_3 and 
 	co2.ref_year between 2010 and 2020
-group by wc.country, wc.population2020  
+group by wc.country, wc.population2020, wc.region  
 order by total_emissions desc
 limit 10;
 
@@ -187,33 +188,13 @@ where
 	e20.emissions2020 > 0
 order by percentage;
 
-
-
-
 -- 10. Return the maximum emission, the year and the region for each country
 
-select co2.country, max(co2.total), co2.ref_year, ct.region
-from co2_emissions co2, country_territories ct
-where co2.alpha_3 = ct.alpha_3
-group by co2.country, co2.ref_year, ct.region
-
-select co2_1.country, co2_1.total, co2_1.ref_year
-from co2_emissions co2_1
-left join co2_emissions co2_2
-on co2_1.total < co2_2.total
-
-select distinct country from co2_emissions
-where alpha_3 is null
-
-select wc.country, wc.alpha_3 from world_countries wc
-where wc.alpha_3 not in (select distinct alpha from co2_emissions)
-
-select distinct country, alpha_3 from co2_emissions
-where alpha_3 not in (select wc.alpha_3 from world_countries wc)
 
 
 
--- extra Return region and subregion with the number of countries > threshold
+
+-- 11. Return region and subregion with the number of countries > 10
 
 --med 10 exe 132,4
 drop view if exists num_countries_for_subregion;
