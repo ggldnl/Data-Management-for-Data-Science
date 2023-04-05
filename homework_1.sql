@@ -129,7 +129,7 @@ select * from co2_emissions;
 /* --------------------------------- queries -------------------------------- */
 
 -- 1. Return the name of country the regions and the medage with medage lower then 30
--- Med 10 exe 
+
 select country, med_age, region, fert_rate 
 from world_countries 
 group by country, med_age, region, fert_rate
@@ -140,7 +140,7 @@ select * from world_countries where fert_rate is not null order by fert_rate des
 
 -- 2. Retun countries and their subregion that are in Europe but not in the
 -- European Union
--- Med 10 exe 
+
 select country, subregion
 from country_territories ct
 where ct.alpha_3 not in (
@@ -156,19 +156,17 @@ select count(country) as total from world_countries where region = 'Europe'; -- 
 
 -- 3. Return all the countries in the european union that are not geographically in europe 
 
--- Med 10 exe 
 select wc.alpha_3, wc.country, wc.region, eu.join_date, eu.currency
 from eu_countries eu, world_countries wc
 where 
 	eu.alpha_3 = wc.alpha_3 and
 	wc.region != 'Europe';
 
-
 -- 4. For the top 10 populated countries return country, population, land area and density 
 
 --density = p/km^2
 --land area = km^2
--- Med 10 exe 
+
 select 
 	country,
 	to_char(population2020, 'FM999G999G999G999') as population2020,
@@ -180,8 +178,6 @@ limit 10;
 
 -- 5. for every region return the average of population for region 
 -- and the most populated country
-
--- Med 10 exe
 
 select 
 	avgp.region, 
@@ -206,28 +202,27 @@ from
 where avgp.region = mpc.region and sump.region = mpc.region
 order by average_population desc;
 
-
 -- 6. Return world countries that have a greater population density of the most
 -- densely populated african country
 
 -- We took Africa as continent because the most densely populated country
 
 -- density = p/km^2
--- med 10 exe 136.8
+
 select wc.alpha_3, wc.country, wc.density
 from world_countries wc
 where wc.density > (
 	select max(wc1.density)
 	from world_countries wc1
 	where wc1.region = 'Africa'
-);
+)
+order by wc.density desc;
 
 -- 7. Return the country polulation and subregion of every country such that the total amount of
 -- coal co2Emission from 2010 t0 2020 is less than 100
 
 -- co2 emissions are measured in million metric tons (MMT)
 
--- Med 10 exe 
 select wc.country, wc.population2020, sum(co2.coal) as total_emissions
 from world_countries wc, co2_emissions co2
 where
@@ -255,8 +250,6 @@ order by total_emissions desc
 limit 10;
 
 -- 9. Return the difference in percentage of emissions of a country between 2010 and 2020
-
--- med 10 exe 
 
 select 
 	e10.alpha_3, 
@@ -309,8 +302,6 @@ where b.alpha_3 is null and wc.alpha_3 = a.alpha_3
 order by a.total desc;
 
 -- 11. Return region and subregion with the number of countries > 10
-
---med 10 exe 
 
 select *
 from 
