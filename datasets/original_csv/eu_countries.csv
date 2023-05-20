@@ -1,0 +1,28 @@
+alpha3,country,capital, gdp,join_date,currency
+AUT,Austria,Vienna,455.32,1995-01-01,Euro
+BEL,Belgium,Brussels,530.76,1952-01-01,Euro
+BGR,Bulgaria,Sofia,64.11,2007-01-01,Bulgarian Lev
+CYP,Cyprus,Nicosia,24.75,2004-05-01,Euro
+CZE,Czech Republic,Prague,244.88,2004-05-01,Czech Koruna
+DEU,Germany,Berlin,3693.2,1952-01-01,Euro
+DNK,Denmark,Copenhagen,306.73,1973-01-01,Danish Krone
+EST,Estonia,Tallinn,27.37,2004-05-01,Euro
+FIN,Finland,Helsinki,236.72,1995-01-01,Euro
+FRA,France,Paris,2582.49,1952-01-01,Euro
+GRC,Greece,Athens,209.85,1981-01-01,Euro
+HRV,Croatia,Zagreb,60.08,2013-07-01,Croatian Kuna
+HUN,Hungary,Budapest,155.84,2004-05-01,Hungarian Forint
+IRL,Ireland,Dublin,383.49,1973-01-01,Euro
+ITA,Italy,Rome,1937.25,1952-01-01,Euro
+LTU,Lithuania,Vilnius,54.15,2004-05-01,Euro
+LUX,Luxembourg,Luxembourg City,70.36,1952-01-01,Euro
+LVA,Latvia,Riga,30.24,2004-05-01,Euro
+MLT,Malta,Valletta,16.8,2004-05-01,Euro
+NLD,Netherlands,Amsterdam,902.36,1952-01-01,Euro
+POL,Poland,Warsaw,595.9,2004-05-01,Polish złoty
+PRT,Portugal,Lisbon,218.8,1986-01-01,Euro
+ROU,Romania,Bucharest,239.7,2007-01-01,Romanian leu
+SVK,Slovakia,Bratislava,104.2,2004-05-01,Euro
+SVN,Slovenia,Ljubljana,54.6,2004-05-01,Euro
+ESP,Spain,Madrid,1396.0,1986-01-01,Euro
+SWE,Sweden,Stockholm,538.4,1995-01-01,Swedish krona

@@ -1,0 +1,218 @@
+[
+ {
+   "_id": "AUT",
+   "country": "Austria",
+   "capital": "Vienna",
+   "gdp": 455.32,
+   "join_date": "1995-01-01",
+   "currency": "Euro"
+ },
+ {
+   "_id": "BEL",
+   "country": "Belgium",
+   "capital": "Brussels",
+   "gdp": 530.76,
+   "join_date": "1952-01-01",
+   "currency": "Euro"
+ },
+ {
+   "_id": "BGR",
+   "country": "Bulgaria",
+   "capital": "Sofia",
+   "gdp": 64.11,
+   "join_date": "2007-01-01",
+   "currency": "Bulgarian Lev"
+ },
+ {
+   "_id": "CYP",
+   "country": "Cyprus",
+   "capital": "Nicosia",
+   "gdp": 24.75,
+   "join_date": "2004-05-01",
+   "currency": "Euro"
+ },
+ {
+   "_id": "CZE",
+   "country": "Czech Republic",
+   "capital": "Prague",
+   "gdp": 244.88,
+   "join_date": "2004-05-01",
+   "currency": "Czech Koruna"
+ },
+ {
+   "_id": "DEU",
+   "country": "Germany",
+   "capital": "Berlin",
+   "gdp": 3693.2,
+   "join_date": "1952-01-01",
+   "currency": "Euro"
+ },
+ {
+   "_id": "DNK",
+   "country": "Denmark",
+   "capital": "Copenhagen",
+   "gdp": 306.73,
+   "join_date": "1973-01-01",
+   "currency": "Danish Krone"
+ },
+ {
+   "_id": "EST",
+   "country": "Estonia",
+   "capital": "Tallinn",
+   "gdp": 27.37,
+   "join_date": "2004-05-01",
+   "currency": "Euro"
+ },
+ {
+   "_id": "FIN",
+   "country": "Finland",
+   "capital": "Helsinki",
+   "gdp": 236.72,
+   "join_date": "1995-01-01",
+   "currency": "Euro"
+ },
+ {
+   "_id": "FRA",
+   "country": "France",
+   "capital": "Paris",
+   "gdp": 2582.49,
+   "join_date": "1952-01-01",
+   "currency": "Euro"
+ },
+ {
+   "_id": "GRC",
+   "country": "Greece",
+   "capital": "Athens",
+   "gdp": 209.85,
+   "join_date": "1981-01-01",
+   "currency": "Euro"
+ },
+ {
+   "_id": "HRV",
+   "country": "Croatia",
+   "capital": "Zagreb",
+   "gdp": 60.08,
+   "join_date": "2013-07-01",
+   "currency": "Croatian Kuna"
+ },
+ {
+   "_id": "HUN",
+   "country": "Hungary",
+   "capital": "Budapest",
+   "gdp": 155.84,
+   "join_date": "2004-05-01",
+   "currency": "Hungarian Forint"
+ },
+ {
+   "_id": "IRL",
+   "country": "Ireland",
+   "capital": "Dublin",
+   "gdp": 383.49,
+   "join_date": "1973-01-01",
+   "currency": "Euro"
+ },
+ {
+   "_id": "ITA",
+   "country": "Italy",
+   "capital": "Rome",
+   "gdp": 1937.25,
+   "join_date": "1952-01-01",
+   "currency": "Euro"
+ },
+ {
+   "_id": "LTU",
+   "country": "Lithuania",
+   "capital": "Vilnius",
+   "gdp": 54.15,
+   "join_date": "2004-05-01",
+   "currency": "Euro"
+ },
+ {
+   "_id": "LUX",
+   "country": "Luxembourg",
+   "capital": "Luxembourg City",
+   "gdp": 70.36,
+   "join_date": "1952-01-01",
+   "currency": "Euro"
+ },
+ {
+   "_id": "LVA",
+   "country": "Latvia",
+   "capital": "Riga",
+   "gdp": 30.24,
+   "join_date": "2004-05-01",
+   "currency": "Euro"
+ },
+ {
+   "_id": "MLT",
+   "country": "Malta",
+   "capital": "Valletta",
+   "gdp": 16.8,
+   "join_date": "2004-05-01",
+   "currency": "Euro"
+ },
+ {
+   "_id": "NLD",
+   "country": "Netherlands",
+   "capital": "Amsterdam",
+   "gdp": 902.36,
+   "join_date": "1952-01-01",
+   "currency": "Euro"
+ },
+ {
+   "_id": "POL",
+   "country": "Poland",
+   "capital": "Warsaw",
+   "gdp": 595.9,
+   "join_date": "2004-05-01",
+   "currency": "Polish złoty"
+ },
+ {
+   "_id": "PRT",
+   "country": "Portugal",
+   "capital": "Lisbon",
+   "gdp": 218.8,
+   "join_date": "1986-01-01",
+   "currency": "Euro"
+ },
+ {
+   "_id": "ROU",
+   "country": "Romania",
+   "capital": "Bucharest",
+   "gdp": 239.7,
+   "join_date": "2007-01-01",
+   "currency": "Romanian leu"
+ },
+ {
+   "_id": "SVK",
+   "country": "Slovakia",
+   "capital": "Bratislava",
+   "gdp": 104.2,
+   "join_date": "2004-05-01",
+   "currency": "Euro"
+ },
+ {
+   "_id": "SVN",
+   "country": "Slovenia",
+   "capital": "Ljubljana",
+   "gdp": 54.6,
+   "join_date": "2004-05-01",
+   "currency": "Euro"
+ },
+ {
+   "_id": "ESP",
+   "country": "Spain",
+   "capital": "Madrid",
+   "gdp": 1396,
+   "join_date": "1986-01-01",
+   "currency": "Euro"
+ },
+ {
+   "_id": "SWE",
+   "country": "Sweden",
+   "capital": "Stockholm",
+   "gdp": 538.4,
+   "join_date": "1995-01-01",
+   "currency": "Swedish krona"
+ }
+]
