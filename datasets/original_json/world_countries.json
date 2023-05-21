@@ -11,7 +11,7 @@
   "med_age": 38,
   "urban": 61,
   "world_share": 18.47,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "IND",
   "country": "India",
@@ -25,7 +25,7 @@
   "med_age": 28,
   "urban": 35,
   "world_share": 17.7,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "IDN",
   "country": "Indonesia",
@@ -39,7 +39,7 @@
   "med_age": 30,
   "urban": 56,
   "world_share": 3.51,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "PAK",
   "country": "Pakistan",
@@ -53,7 +53,7 @@
   "med_age": 23,
   "urban": 35,
   "world_share": 2.83,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "BGD",
   "country": "Bangladesh",
@@ -67,7 +67,7 @@
   "med_age": 28,
   "urban": 39,
   "world_share": 2.11,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "JPN",
   "country": "Japan",
@@ -81,7 +81,7 @@
   "med_age": 48,
   "urban": 92,
   "world_share": 1.62,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "PHL",
   "country": "Philippines",
@@ -95,7 +95,7 @@
   "med_age": 26,
   "urban": 47,
   "world_share": 1.41,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "VNM",
   "country": "Vietnam",
@@ -109,7 +109,7 @@
   "med_age": 32,
   "urban": 38,
   "world_share": 1.25,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "TUR",
   "country": "Turkey",
@@ -123,7 +123,7 @@
   "med_age": 32,
   "urban": 76,
   "world_share": 1.08,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "IRN",
   "country": "Iran",
@@ -137,7 +137,7 @@
   "med_age": 32,
   "urban": 76,
   "world_share": 1.08,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "THA",
   "country": "Thailand",
@@ -151,7 +151,7 @@
   "med_age": 40,
   "urban": 51,
   "world_share": 0.9,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "MMR",
   "country": "Myanmar",
@@ -165,7 +165,7 @@
   "med_age": 29,
   "urban": 31,
   "world_share": 0.7,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "KOR",
   "country": "South Korea",
@@ -179,7 +179,7 @@
   "med_age": 44,
   "urban": 82,
   "world_share": 0.66,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "IRQ",
   "country": "Iraq",
@@ -193,7 +193,7 @@
   "med_age": 21,
   "urban": 73,
   "world_share": 0.52,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "AFG",
   "country": "Afghanistan",
@@ -207,7 +207,7 @@
   "med_age": 18,
   "urban": 25,
   "world_share": 0.5,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "SAU",
   "country": "Saudi Arabia",
@@ -221,7 +221,7 @@
   "med_age": 32,
   "urban": 84,
   "world_share": 0.45,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "UZB",
   "country": "Uzbekistan",
@@ -235,7 +235,7 @@
   "med_age": 28,
   "urban": 50,
   "world_share": 0.43,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "MYS",
   "country": "Malaysia",
@@ -249,7 +249,7 @@
   "med_age": 30,
   "urban": 78,
   "world_share": 0.42,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "YEM",
   "country": "Yemen",
@@ -263,7 +263,7 @@
   "med_age": 20,
   "urban": 38,
   "world_share": 0.38,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "NPL",
   "country": "Nepal",
@@ -277,7 +277,7 @@
   "med_age": 25,
   "urban": 21,
   "world_share": 0.37,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "PRK",
   "country": "North Korea",
@@ -291,7 +291,7 @@
   "med_age": 35,
   "urban": 63,
   "world_share": 0.33,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "TWN",
   "country": "Taiwan",
@@ -305,7 +305,7 @@
   "med_age": 42,
   "urban": 79,
   "world_share": 0.31,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "LKA",
   "country": "Sri Lanka",
@@ -319,7 +319,7 @@
   "med_age": 34,
   "urban": 18,
   "world_share": 0.27,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "KAZ",
   "country": "Kazakhstan",
@@ -333,7 +333,7 @@
   "med_age": 31,
   "urban": 58,
   "world_share": 0.24,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "SYR",
   "country": "Syria",
@@ -347,7 +347,7 @@
   "med_age": 26,
   "urban": 60,
   "world_share": 0.22,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "KHM",
   "country": "Cambodia",
@@ -361,7 +361,7 @@
   "med_age": 26,
   "urban": 24,
   "world_share": 0.21,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "JOR",
   "country": "Jordan",
@@ -375,7 +375,7 @@
   "med_age": 24,
   "urban": 91,
   "world_share": 0.13,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "AZE",
   "country": "Azerbaijan",
@@ -389,7 +389,7 @@
   "med_age": 32,
   "urban": 56,
   "world_share": 0.13,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "ARE",
   "country": "United Arab Emirates",
@@ -403,7 +403,7 @@
   "med_age": 33,
   "urban": 86,
   "world_share": 0.13,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "TJK",
   "country": "Tajikistan",
@@ -417,7 +417,7 @@
   "med_age": 22,
   "urban": 27,
   "world_share": 0.12,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "ISR",
   "country": "Israel",
@@ -431,7 +431,7 @@
   "med_age": 30,
   "urban": 93,
   "world_share": 0.11,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "HKG",
   "country": "Hong Kong",
@@ -447,7 +447,7 @@
     "$numberDouble": "NaN"
   },
   "world_share": 0.1,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "LAO",
   "country": "Laos",
@@ -461,7 +461,7 @@
   "med_age": 24,
   "urban": 36,
   "world_share": 0.09,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "LBN",
   "country": "Lebanon",
@@ -475,7 +475,7 @@
   "med_age": 30,
   "urban": 78,
   "world_share": 0.09,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "KGZ",
   "country": "Kyrgyzstan",
@@ -489,7 +489,7 @@
   "med_age": 26,
   "urban": 36,
   "world_share": 0.08,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "TKM",
   "country": "Turkmenistan",
@@ -503,7 +503,7 @@
   "med_age": 27,
   "urban": 53,
   "world_share": 0.08,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "SGP",
   "country": "Singapore",
@@ -519,7 +519,7 @@
     "$numberDouble": "NaN"
   },
   "world_share": 0.08,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "PSE",
   "country": "State of Palestine",
@@ -533,7 +533,7 @@
   "med_age": 21,
   "urban": 80,
   "world_share": 0.07,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "OMN",
   "country": "Oman",
@@ -547,7 +547,7 @@
   "med_age": 31,
   "urban": 87,
   "world_share": 0.07,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "KWT",
   "country": "Kuwait",
@@ -563,7 +563,7 @@
     "$numberDouble": "NaN"
   },
   "world_share": 0.05,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "GEO",
   "country": "Georgia",
@@ -577,7 +577,7 @@
   "med_age": 38,
   "urban": 58,
   "world_share": 0.05,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "MNG",
   "country": "Mongolia",
@@ -591,7 +591,7 @@
   "med_age": 28,
   "urban": 67,
   "world_share": 0.04,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "ARM",
   "country": "Armenia",
@@ -605,7 +605,7 @@
   "med_age": 35,
   "urban": 63,
   "world_share": 0.04,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "QAT",
   "country": "Qatar",
@@ -619,7 +619,7 @@
   "med_age": 32,
   "urban": 96,
   "world_share": 0.04,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "BHR",
   "country": "Bahrain",
@@ -633,7 +633,7 @@
   "med_age": 32,
   "urban": 89,
   "world_share": 0.02,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "TLS",
   "country": "Timor-Leste",
@@ -647,7 +647,7 @@
   "med_age": 21,
   "urban": 33,
   "world_share": 0.02,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "CYP",
   "country": "Cyprus",
@@ -661,7 +661,7 @@
   "med_age": 37,
   "urban": 67,
   "world_share": 0.02,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "BTN",
   "country": "Bhutan",
@@ -675,7 +675,7 @@
   "med_age": 28,
   "urban": 46,
   "world_share": 0.01,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "MAC",
   "country": "Macao",
@@ -691,7 +691,7 @@
     "$numberDouble": "NaN"
   },
   "world_share": 0.01,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "MDV",
   "country": "Maldives",
@@ -705,7 +705,7 @@
   "med_age": 30,
   "urban": 35,
   "world_share": 0.01,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "BRN",
   "country": "Brunei",
@@ -719,7 +719,7 @@
   "med_age": 32,
   "urban": 80,
   "world_share": 0.01,
-  "regions": "Asia"
+  "region": "Asia"
 },{
   "_id": "NGA",
   "country": "Nigeria",
@@ -733,7 +733,7 @@
   "med_age": 18,
   "urban": 52,
   "world_share": 2.64,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "ETH",
   "country": "Ethiopia",
@@ -747,7 +747,7 @@
   "med_age": 19,
   "urban": 21,
   "world_share": 1.47,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "EGY",
   "country": "Egypt",
@@ -761,7 +761,7 @@
   "med_age": 25,
   "urban": 43,
   "world_share": 1.31,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "COD",
   "country": "DR Congo",
@@ -775,7 +775,7 @@
   "med_age": 17,
   "urban": 46,
   "world_share": 1.15,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "ZAF",
   "country": "South Africa",
@@ -789,7 +789,7 @@
   "med_age": 28,
   "urban": 67,
   "world_share": 0.76,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "TZA",
   "country": "Tanzania",
@@ -803,7 +803,7 @@
   "med_age": 18,
   "urban": 37,
   "world_share": 0.77,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "KEN",
   "country": "Kenya",
@@ -817,7 +817,7 @@
   "med_age": 20,
   "urban": 28,
   "world_share": 0.69,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "UGA",
   "country": "Uganda",
@@ -831,7 +831,7 @@
   "med_age": 17,
   "urban": 26,
   "world_share": 0.59,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "DZA",
   "country": "Algeria",
@@ -845,7 +845,7 @@
   "med_age": 29,
   "urban": 73,
   "world_share": 0.56,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "SDN",
   "country": "Sudan",
@@ -859,7 +859,7 @@
   "med_age": 20,
   "urban": 35,
   "world_share": 0.56,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "MAR",
   "country": "Morocco",
@@ -873,7 +873,7 @@
   "med_age": 30,
   "urban": 64,
   "world_share": 0.47,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "AGO",
   "country": "Angola",
@@ -887,7 +887,7 @@
   "med_age": 17,
   "urban": 67,
   "world_share": 0.42,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "GHA",
   "country": "Ghana",
@@ -901,7 +901,7 @@
   "med_age": 22,
   "urban": 57,
   "world_share": 0.4,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "MOZ",
   "country": "Mozambique",
@@ -915,7 +915,7 @@
   "med_age": 18,
   "urban": 38,
   "world_share": 0.4,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "MDG",
   "country": "Madagascar",
@@ -929,7 +929,7 @@
   "med_age": 20,
   "urban": 39,
   "world_share": 0.36,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "CMR",
   "country": "Cameroon",
@@ -943,7 +943,7 @@
   "med_age": 19,
   "urban": 56,
   "world_share": 0.34,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "CIV",
   "country": "Cote d'Ivoire",
@@ -957,7 +957,7 @@
   "med_age": 19,
   "urban": 51,
   "world_share": 0.34,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "NER",
   "country": "Niger",
@@ -971,7 +971,7 @@
   "med_age": 15,
   "urban": 17,
   "world_share": 0.31,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "BFA",
   "country": "Burkina Faso",
@@ -985,7 +985,7 @@
   "med_age": 18,
   "urban": 31,
   "world_share": 0.27,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "MLI",
   "country": "Mali",
@@ -999,7 +999,7 @@
   "med_age": 16,
   "urban": 44,
   "world_share": 0.26,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "MWI",
   "country": "Malawi",
@@ -1013,7 +1013,7 @@
   "med_age": 18,
   "urban": 18,
   "world_share": 0.25,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "ZMB",
   "country": "Zambia",
@@ -1027,7 +1027,7 @@
   "med_age": 18,
   "urban": 45,
   "world_share": 0.24,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "SEN",
   "country": "Senegal",
@@ -1041,7 +1041,7 @@
   "med_age": 19,
   "urban": 49,
   "world_share": 0.21,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "TCD",
   "country": "Chad",
@@ -1055,7 +1055,7 @@
   "med_age": 17,
   "urban": 23,
   "world_share": 0.21,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "SOM",
   "country": "Somalia",
@@ -1069,7 +1069,7 @@
   "med_age": 17,
   "urban": 47,
   "world_share": 0.2,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "ZWE",
   "country": "Zimbabwe",
@@ -1083,7 +1083,7 @@
   "med_age": 19,
   "urban": 38,
   "world_share": 0.19,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "GIN",
   "country": "Guinea",
@@ -1097,7 +1097,7 @@
   "med_age": 18,
   "urban": 39,
   "world_share": 0.17,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "RWA",
   "country": "Rwanda",
@@ -1111,7 +1111,7 @@
   "med_age": 20,
   "urban": 18,
   "world_share": 0.17,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "BEN",
   "country": "Benin",
@@ -1125,7 +1125,7 @@
   "med_age": 19,
   "urban": 48,
   "world_share": 0.16,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "TUN",
   "country": "Tunisia",
@@ -1139,7 +1139,7 @@
   "med_age": 33,
   "urban": 70,
   "world_share": 0.15,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "BDI",
   "country": "Burundi",
@@ -1153,7 +1153,7 @@
   "med_age": 17,
   "urban": 14,
   "world_share": 0.15,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "SSD",
   "country": "South Sudan",
@@ -1167,7 +1167,7 @@
   "med_age": 19,
   "urban": 25,
   "world_share": 0.14,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "TGO",
   "country": "Togo",
@@ -1181,7 +1181,7 @@
   "med_age": 19,
   "urban": 43,
   "world_share": 0.11,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "SLE",
   "country": "Sierra Leone",
@@ -1195,7 +1195,7 @@
   "med_age": 19,
   "urban": 43,
   "world_share": 0.1,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "LBY",
   "country": "Libya",
@@ -1209,7 +1209,7 @@
   "med_age": 29,
   "urban": 78,
   "world_share": 0.09,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "COG",
   "country": "Congo",
@@ -1223,7 +1223,7 @@
   "med_age": 19,
   "urban": 70,
   "world_share": 0.07,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "LBR",
   "country": "Liberia",
@@ -1237,7 +1237,7 @@
   "med_age": 19,
   "urban": 53,
   "world_share": 0.06,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "CAF",
   "country": "Central African Republic",
@@ -1251,7 +1251,7 @@
   "med_age": 18,
   "urban": 43,
   "world_share": 0.06,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "MRT",
   "country": "Mauritania",
@@ -1265,7 +1265,7 @@
   "med_age": 20,
   "urban": 57,
   "world_share": 0.06,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "ERI",
   "country": "Eritrea",
@@ -1279,7 +1279,7 @@
   "med_age": 19,
   "urban": 63,
   "world_share": 0.05,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "NAM",
   "country": "Namibia",
@@ -1293,7 +1293,7 @@
   "med_age": 22,
   "urban": 55,
   "world_share": 0.03,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "GMB",
   "country": "Gambia",
@@ -1307,7 +1307,7 @@
   "med_age": 18,
   "urban": 59,
   "world_share": 0.03,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "BWA",
   "country": "Botswana",
@@ -1321,7 +1321,7 @@
   "med_age": 24,
   "urban": 73,
   "world_share": 0.03,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "GAB",
   "country": "Gabon",
@@ -1335,7 +1335,7 @@
   "med_age": 23,
   "urban": 87,
   "world_share": 0.03,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "LSO",
   "country": "Lesotho",
@@ -1349,7 +1349,7 @@
   "med_age": 24,
   "urban": 31,
   "world_share": 0.03,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "GNB",
   "country": "Guinea-Bissau",
@@ -1363,7 +1363,7 @@
   "med_age": 19,
   "urban": 45,
   "world_share": 0.03,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "GNQ",
   "country": "Equatorial Guinea",
@@ -1377,7 +1377,7 @@
   "med_age": 22,
   "urban": 73,
   "world_share": 0.02,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "MUS",
   "country": "Mauritius",
@@ -1391,7 +1391,7 @@
   "med_age": 37,
   "urban": 41,
   "world_share": 0.02,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "SWZ",
   "country": "Eswatini",
@@ -1405,7 +1405,7 @@
   "med_age": 21,
   "urban": 30,
   "world_share": 0.01,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "DJI",
   "country": "Djibouti",
@@ -1419,7 +1419,7 @@
   "med_age": 27,
   "urban": 79,
   "world_share": 0.01,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "REU",
   "country": "Reunion",
@@ -1433,7 +1433,7 @@
   "med_age": 36,
   "urban": 100,
   "world_share": 0.01,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "COM",
   "country": "Comoros",
@@ -1447,7 +1447,7 @@
   "med_age": 20,
   "urban": 29,
   "world_share": 0.01,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "ESH",
   "country": "Western Sahara",
@@ -1461,7 +1461,7 @@
   "med_age": 28,
   "urban": 87,
   "world_share": 0.01,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "CPV",
   "country": "Cabo Verde",
@@ -1475,7 +1475,7 @@
   "med_age": 28,
   "urban": 68,
   "world_share": 0.01,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "MYT",
   "country": "Mayotte",
@@ -1489,7 +1489,7 @@
   "med_age": 20,
   "urban": 46,
   "world_share": 0,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "STP",
   "country": "Sao Tome & Principe",
@@ -1503,7 +1503,7 @@
   "med_age": 19,
   "urban": 74,
   "world_share": 0,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "SYC",
   "country": "Seychelles",
@@ -1517,7 +1517,7 @@
   "med_age": 34,
   "urban": 56,
   "world_share": 0,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "SHN",
   "country": "Saint Helena",
@@ -1537,7 +1537,7 @@
   },
   "urban": 27,
   "world_share": 0,
-  "regions": "Africa"
+  "region": "Africa"
 },{
   "_id": "RUS",
   "country": "Russia",
@@ -1551,7 +1551,7 @@
   "med_age": 40,
   "urban": 74,
   "world_share": 1.87,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "DEU",
   "country": "Germany",
@@ -1565,7 +1565,7 @@
   "med_age": 46,
   "urban": 76,
   "world_share": 1.07,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "GBR",
   "country": "United Kingdom",
@@ -1579,7 +1579,7 @@
   "med_age": 40,
   "urban": 83,
   "world_share": 0.87,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "FRA",
   "country": "France",
@@ -1593,7 +1593,7 @@
   "med_age": 42,
   "urban": 82,
   "world_share": 0.84,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "ITA",
   "country": "Italy",
@@ -1607,7 +1607,7 @@
   "med_age": 47,
   "urban": 69,
   "world_share": 0.78,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "ESP",
   "country": "Spain",
@@ -1621,7 +1621,7 @@
   "med_age": 45,
   "urban": 80,
   "world_share": 0.6,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "UKR",
   "country": "Ukraine",
@@ -1635,7 +1635,7 @@
   "med_age": 41,
   "urban": 69,
   "world_share": 0.56,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "POL",
   "country": "Poland",
@@ -1649,7 +1649,7 @@
   "med_age": 42,
   "urban": 60,
   "world_share": 0.49,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "ROU",
   "country": "Romania",
@@ -1663,7 +1663,7 @@
   "med_age": 43,
   "urban": 55,
   "world_share": 0.25,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "NLD",
   "country": "Netherlands",
@@ -1677,7 +1677,7 @@
   "med_age": 43,
   "urban": 92,
   "world_share": 0.22,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "BEL",
   "country": "Belgium",
@@ -1691,7 +1691,7 @@
   "med_age": 42,
   "urban": 98,
   "world_share": 0.15,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "CZE",
   "country": "Czech Republic (Czechia)",
@@ -1705,7 +1705,7 @@
   "med_age": 43,
   "urban": 74,
   "world_share": 0.14,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "GRC",
   "country": "Greece",
@@ -1719,7 +1719,7 @@
   "med_age": 46,
   "urban": 85,
   "world_share": 0.13,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "PRT",
   "country": "Portugal",
@@ -1733,7 +1733,7 @@
   "med_age": 46,
   "urban": 66,
   "world_share": 0.13,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "SWE",
   "country": "Sweden",
@@ -1747,7 +1747,7 @@
   "med_age": 41,
   "urban": 88,
   "world_share": 0.13,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "HUN",
   "country": "Hungary",
@@ -1761,7 +1761,7 @@
   "med_age": 43,
   "urban": 72,
   "world_share": 0.12,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "BLR",
   "country": "Belarus",
@@ -1775,7 +1775,7 @@
   "med_age": 40,
   "urban": 79,
   "world_share": 0.12,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "AUT",
   "country": "Austria",
@@ -1789,7 +1789,7 @@
   "med_age": 43,
   "urban": 57,
   "world_share": 0.12,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "SRB",
   "country": "Serbia",
@@ -1803,7 +1803,7 @@
   "med_age": 42,
   "urban": 56,
   "world_share": 0.11,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "CHE",
   "country": "Switzerland",
@@ -1817,7 +1817,7 @@
   "med_age": 43,
   "urban": 74,
   "world_share": 0.11,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "BGR",
   "country": "Bulgaria",
@@ -1831,7 +1831,7 @@
   "med_age": 45,
   "urban": 76,
   "world_share": 0.09,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "DNK",
   "country": "Denmark",
@@ -1845,7 +1845,7 @@
   "med_age": 42,
   "urban": 88,
   "world_share": 0.07,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "FIN",
   "country": "Finland",
@@ -1859,7 +1859,7 @@
   "med_age": 43,
   "urban": 86,
   "world_share": 0.07,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "SVK",
   "country": "Slovakia",
@@ -1873,7 +1873,7 @@
   "med_age": 41,
   "urban": 54,
   "world_share": 0.07,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "NOR",
   "country": "Norway",
@@ -1887,7 +1887,7 @@
   "med_age": 40,
   "urban": 83,
   "world_share": 0.07,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "IRL",
   "country": "Ireland",
@@ -1901,7 +1901,7 @@
   "med_age": 38,
   "urban": 63,
   "world_share": 0.06,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "HRV",
   "country": "Croatia",
@@ -1915,7 +1915,7 @@
   "med_age": 44,
   "urban": 58,
   "world_share": 0.05,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "MDA",
   "country": "Moldova",
@@ -1929,7 +1929,7 @@
   "med_age": 38,
   "urban": 43,
   "world_share": 0.05,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "BIH",
   "country": "Bosnia and Herzegovina",
@@ -1943,7 +1943,7 @@
   "med_age": 43,
   "urban": 52,
   "world_share": 0.04,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "ALB",
   "country": "Albania",
@@ -1957,7 +1957,7 @@
   "med_age": 36,
   "urban": 63,
   "world_share": 0.04,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "LTU",
   "country": "Lithuania",
@@ -1971,7 +1971,7 @@
   "med_age": 45,
   "urban": 71,
   "world_share": 0.03,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "MKD",
   "country": "North Macedonia",
@@ -1985,7 +1985,7 @@
   "med_age": 39,
   "urban": 59,
   "world_share": 0.03,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "SVN",
   "country": "Slovenia",
@@ -1999,7 +1999,7 @@
   "med_age": 45,
   "urban": 55,
   "world_share": 0.03,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "LVA",
   "country": "Latvia",
@@ -2013,7 +2013,7 @@
   "med_age": 44,
   "urban": 69,
   "world_share": 0.02,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "EST",
   "country": "Estonia",
@@ -2027,7 +2027,7 @@
   "med_age": 42,
   "urban": 68,
   "world_share": 0.02,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "MNE",
   "country": "Montenegro",
@@ -2041,7 +2041,7 @@
   "med_age": 39,
   "urban": 68,
   "world_share": 0.01,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "LUX",
   "country": "Luxembourg",
@@ -2055,7 +2055,7 @@
   "med_age": 40,
   "urban": 88,
   "world_share": 0.01,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "MLT",
   "country": "Malta",
@@ -2069,7 +2069,7 @@
   "med_age": 43,
   "urban": 93,
   "world_share": 0.01,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "ISL",
   "country": "Iceland",
@@ -2083,7 +2083,7 @@
   "med_age": 37,
   "urban": 94,
   "world_share": 0,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "GGY",
   "country": "Channel Islands",
@@ -2097,7 +2097,7 @@
   "med_age": 43,
   "urban": 30,
   "world_share": 0,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "IMN",
   "country": "Isle of Man",
@@ -2117,7 +2117,7 @@
   },
   "urban": 53,
   "world_share": 0,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "AND",
   "country": "Andorra",
@@ -2137,7 +2137,7 @@
   },
   "urban": 88,
   "world_share": 0,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "FRO",
   "country": "Faeroe Islands",
@@ -2157,7 +2157,7 @@
   },
   "urban": 43,
   "world_share": 0,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "MCO",
   "country": "Monaco",
@@ -2179,7 +2179,7 @@
     "$numberDouble": "NaN"
   },
   "world_share": 0,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "LIE",
   "country": "Liechtenstein",
@@ -2199,7 +2199,7 @@
   },
   "urban": 15,
   "world_share": 0,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "SMR",
   "country": "San Marino",
@@ -2219,7 +2219,7 @@
   },
   "urban": 97,
   "world_share": 0,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "GIB",
   "country": "Gibraltar",
@@ -2241,7 +2241,7 @@
     "$numberDouble": "NaN"
   },
   "world_share": 0,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "VAT",
   "country": "Holy See",
@@ -2263,7 +2263,7 @@
     "$numberDouble": "NaN"
   },
   "world_share": 0,
-  "regions": "Europe"
+  "region": "Europe"
 },{
   "_id": "BRA",
   "country": "Brazil",
@@ -2277,7 +2277,7 @@
   "med_age": 33,
   "urban": 88,
   "world_share": 2.73,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "MEX",
   "country": "Mexico",
@@ -2291,7 +2291,7 @@
   "med_age": 29,
   "urban": 84,
   "world_share": 1.65,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "COL",
   "country": "Colombia",
@@ -2305,7 +2305,7 @@
   "med_age": 31,
   "urban": 80,
   "world_share": 0.65,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "ARG",
   "country": "Argentina",
@@ -2319,7 +2319,7 @@
   "med_age": 32,
   "urban": 93,
   "world_share": 0.58,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "PER",
   "country": "Peru",
@@ -2333,7 +2333,7 @@
   "med_age": 31,
   "urban": 79,
   "world_share": 0.42,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "VEN",
   "country": "Venezuela",
@@ -2349,7 +2349,7 @@
     "$numberDouble": "NaN"
   },
   "world_share": 0.36,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "CHL",
   "country": "Chile",
@@ -2363,7 +2363,7 @@
   "med_age": 35,
   "urban": 85,
   "world_share": 0.25,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "GTM",
   "country": "Guatemala",
@@ -2377,7 +2377,7 @@
   "med_age": 23,
   "urban": 52,
   "world_share": 0.23,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "ECU",
   "country": "Ecuador",
@@ -2391,7 +2391,7 @@
   "med_age": 28,
   "urban": 63,
   "world_share": 0.23,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "BOL",
   "country": "Bolivia",
@@ -2405,7 +2405,7 @@
   "med_age": 26,
   "urban": 69,
   "world_share": 0.15,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "CUB",
   "country": "Cuba",
@@ -2419,7 +2419,7 @@
   "med_age": 42,
   "urban": 78,
   "world_share": 0.15,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "HTI",
   "country": "Haiti",
@@ -2433,7 +2433,7 @@
   "med_age": 24,
   "urban": 57,
   "world_share": 0.15,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "DOM",
   "country": "Dominican Republic",
@@ -2447,7 +2447,7 @@
   "med_age": 28,
   "urban": 85,
   "world_share": 0.14,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "HND",
   "country": "Honduras",
@@ -2461,7 +2461,7 @@
   "med_age": 24,
   "urban": 57,
   "world_share": 0.13,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "PRY",
   "country": "Paraguay",
@@ -2475,7 +2475,7 @@
   "med_age": 26,
   "urban": 62,
   "world_share": 0.09,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "NIC",
   "country": "Nicaragua",
@@ -2489,7 +2489,7 @@
   "med_age": 26,
   "urban": 57,
   "world_share": 0.08,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "SLV",
   "country": "El Salvador",
@@ -2503,7 +2503,7 @@
   "med_age": 28,
   "urban": 73,
   "world_share": 0.08,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "CRI",
   "country": "Costa Rica",
@@ -2517,7 +2517,7 @@
   "med_age": 33,
   "urban": 80,
   "world_share": 0.07,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "PAN",
   "country": "Panama",
@@ -2531,7 +2531,7 @@
   "med_age": 30,
   "urban": 68,
   "world_share": 0.06,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "URY",
   "country": "Uruguay",
@@ -2545,7 +2545,7 @@
   "med_age": 36,
   "urban": 96,
   "world_share": 0.04,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "JAM",
   "country": "Jamaica",
@@ -2559,7 +2559,7 @@
   "med_age": 31,
   "urban": 55,
   "world_share": 0.04,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "PRI",
   "country": "Puerto Rico",
@@ -2575,7 +2575,7 @@
     "$numberDouble": "NaN"
   },
   "world_share": 0.04,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "TTO",
   "country": "Trinidad and Tobago",
@@ -2589,7 +2589,7 @@
   "med_age": 36,
   "urban": 52,
   "world_share": 0.02,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "GUY",
   "country": "Guyana",
@@ -2603,7 +2603,7 @@
   "med_age": 27,
   "urban": 27,
   "world_share": 0.01,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "SUR",
   "country": "Suriname",
@@ -2617,7 +2617,7 @@
   "med_age": 29,
   "urban": 65,
   "world_share": 0.01,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "GLP",
   "country": "Guadeloupe",
@@ -2633,7 +2633,7 @@
     "$numberDouble": "NaN"
   },
   "world_share": 0.01,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "BLZ",
   "country": "Belize",
@@ -2647,7 +2647,7 @@
   "med_age": 25,
   "urban": 46,
   "world_share": 0.01,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "BHS",
   "country": "Bahamas",
@@ -2661,7 +2661,7 @@
   "med_age": 32,
   "urban": 86,
   "world_share": 0.01,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "MTQ",
   "country": "Martinique",
@@ -2675,7 +2675,7 @@
   "med_age": 47,
   "urban": 92,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "GUF",
   "country": "French Guiana",
@@ -2689,7 +2689,7 @@
   "med_age": 25,
   "urban": 87,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "BRB",
   "country": "Barbados",
@@ -2703,7 +2703,7 @@
   "med_age": 40,
   "urban": 31,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "LCA",
   "country": "Saint Lucia",
@@ -2717,7 +2717,7 @@
   "med_age": 34,
   "urban": 19,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "CUW",
   "country": "Curacao",
@@ -2731,7 +2731,7 @@
   "med_age": 42,
   "urban": 89,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "GRD",
   "country": "Grenada",
@@ -2745,7 +2745,7 @@
   "med_age": 32,
   "urban": 35,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "VCT",
   "country": "St. Vincent & Grenadines",
@@ -2759,7 +2759,7 @@
   "med_age": 33,
   "urban": 53,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "ABW",
   "country": "Aruba",
@@ -2773,7 +2773,7 @@
   "med_age": 41,
   "urban": 44,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "VIR",
   "country": "U.S. Virgin Islands",
@@ -2787,7 +2787,7 @@
   "med_age": 43,
   "urban": 96,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "ATG",
   "country": "Antigua and Barbuda",
@@ -2801,7 +2801,7 @@
   "med_age": 34,
   "urban": 26,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "DMA",
   "country": "Dominica",
@@ -2821,7 +2821,7 @@
   },
   "urban": 74,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "CYM",
   "country": "Cayman Islands",
@@ -2841,7 +2841,7 @@
   },
   "urban": 97,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "KNA",
   "country": "Saint Kitts & Nevis",
@@ -2861,7 +2861,7 @@
   },
   "urban": 33,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "SXM",
   "country": "Sint Maarten",
@@ -2881,7 +2881,7 @@
   },
   "urban": 96,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "TCA",
   "country": "Turks and Caicos",
@@ -2901,7 +2901,7 @@
   },
   "urban": 89,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "MAF",
   "country": "Saint Martin",
@@ -2921,7 +2921,7 @@
   },
   "urban": 0,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "VGB",
   "country": "British Virgin Islands",
@@ -2941,7 +2941,7 @@
   },
   "urban": 52,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "BES",
   "country": "Caribbean Netherlands",
@@ -2961,7 +2961,7 @@
   },
   "urban": 75,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "AIA",
   "country": "Anguilla",
@@ -2983,7 +2983,7 @@
     "$numberDouble": "NaN"
   },
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "MSR",
   "country": "Montserrat",
@@ -3003,7 +3003,7 @@
   },
   "urban": 10,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "FLK",
   "country": "Falkland Islands",
@@ -3023,7 +3023,7 @@
   },
   "urban": 66,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "USA",
   "country": "United States",
@@ -3037,7 +3037,7 @@
   "med_age": 38,
   "urban": 83,
   "world_share": 4.25,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "CAN",
   "country": "Canada",
@@ -3051,7 +3051,7 @@
   "med_age": 41,
   "urban": 81,
   "world_share": 0.48,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "BMU",
   "country": "Bermuda",
@@ -3071,7 +3071,7 @@
   },
   "urban": 97,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "GRL",
   "country": "Greenland",
@@ -3091,7 +3091,7 @@
   },
   "urban": 87,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "SPM",
   "country": "Saint Pierre & Miquelon",
@@ -3111,7 +3111,7 @@
   },
   "urban": 100,
   "world_share": 0,
-  "regions": "America"
+  "region": "America"
 },{
   "_id": "AUS",
   "country": "Australia",
@@ -3125,7 +3125,7 @@
   "med_age": 38,
   "urban": 86,
   "world_share": 0.33,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "PNG",
   "country": "Papua New Guinea",
@@ -3139,7 +3139,7 @@
   "med_age": 22,
   "urban": 13,
   "world_share": 0.11,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "NZL",
   "country": "New Zealand",
@@ -3153,7 +3153,7 @@
   "med_age": 38,
   "urban": 87,
   "world_share": 0.06,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "FJI",
   "country": "Fiji",
@@ -3167,7 +3167,7 @@
   "med_age": 28,
   "urban": 59,
   "world_share": 0.01,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "SLB",
   "country": "Solomon Islands",
@@ -3181,7 +3181,7 @@
   "med_age": 20,
   "urban": 23,
   "world_share": 0.01,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "FSM",
   "country": "Micronesia",
@@ -3195,7 +3195,7 @@
   "med_age": 27,
   "urban": 68,
   "world_share": 0.01,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "VUT",
   "country": "Vanuatu",
@@ -3209,7 +3209,7 @@
   "med_age": 21,
   "urban": 24,
   "world_share": 0,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "NCL",
   "country": "New Caledonia",
@@ -3223,7 +3223,7 @@
   "med_age": 34,
   "urban": 72,
   "world_share": 0,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "PYF",
   "country": "French Polynesia",
@@ -3237,7 +3237,7 @@
   "med_age": 34,
   "urban": 64,
   "world_share": 0,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "WSM",
   "country": "Samoa",
@@ -3251,7 +3251,7 @@
   "med_age": 22,
   "urban": 18,
   "world_share": 0,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "GUM",
   "country": "Guam",
@@ -3265,7 +3265,7 @@
   "med_age": 31,
   "urban": 95,
   "world_share": 0,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "KIR",
   "country": "Kiribati",
@@ -3279,7 +3279,7 @@
   "med_age": 23,
   "urban": 57,
   "world_share": 0,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "TON",
   "country": "Tonga",
@@ -3293,7 +3293,7 @@
   "med_age": 22,
   "urban": 24,
   "world_share": 0,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "MHL",
   "country": "Marshall Islands",
@@ -3313,7 +3313,7 @@
   },
   "urban": 70,
   "world_share": 0,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "MNP",
   "country": "Northern Mariana Islands",
@@ -3333,7 +3333,7 @@
   },
   "urban": 88,
   "world_share": 0,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "ASM",
   "country": "American Samoa",
@@ -3353,7 +3353,7 @@
   },
   "urban": 88,
   "world_share": 0,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "PLW",
   "country": "Palau",
@@ -3375,7 +3375,7 @@
     "$numberDouble": "NaN"
   },
   "world_share": 0,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "COK",
   "country": "Cook Islands",
@@ -3395,7 +3395,7 @@
   },
   "urban": 75,
   "world_share": 0,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "TUV",
   "country": "Tuvalu",
@@ -3415,7 +3415,7 @@
   },
   "urban": 62,
   "world_share": 0,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "WLF",
   "country": "Wallis & Futuna",
@@ -3435,7 +3435,7 @@
   },
   "urban": 0,
   "world_share": 0,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "NRU",
   "country": "Nauru",
@@ -3457,7 +3457,7 @@
     "$numberDouble": "NaN"
   },
   "world_share": 0,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "NIU",
   "country": "Niue",
@@ -3477,7 +3477,7 @@
   },
   "urban": 46,
   "world_share": 0,
-  "regions": "Oceania"
+  "region": "Oceania"
 },{
   "_id": "TKL",
   "country": "Tokelau",
@@ -3497,5 +3497,5 @@
   },
   "urban": 0,
   "world_share": 0,
-  "regions": "Oceania"
+  "region": "Oceania"
 }]

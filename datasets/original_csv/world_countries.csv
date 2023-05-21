@@ -1,4 +1,4 @@
-alpha_3,country,population_2020,yearly_change,net_change,density,land_area,migrants,fertility_rate,med_age,urban,world_share,regions
+alpha_3,country,population_2020,yearly_change,net_change,density,land_area,migrants,fertility_rate,med_age,urban,world_share,region
 CHN,China,1439323776,0.39,5540090,153,9388211,-348399,1.7,38,61,18.47,Asia
 IND,India,1380004385,0.99,13586631,464,2973190,-532687,2.2,28,35,17.7,Asia
 IDN,Indonesia,273523615,1.07,2898047,151,1811570,-98955,2.3,30,56,3.51,Asia
