@@ -114,7 +114,7 @@ where avgp.region = mpc.region;
 -- 7. Return the country polulation and subregion of every country such that the total amount of
 -- Coal co2Emission from 2010 t0 2020 is less than 100;
 -- 
--- 8. Return country population, and total emissions of the top 10 
+-- 8. Return country population and total emissions of the top 10 
 --countries of CO2 emissions of coal from 2010 to 2020
 
 -- for each country, return the population and the total coal-related emissions from 2010 to 2020
